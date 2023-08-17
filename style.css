@@ -94,7 +94,7 @@ END Glitch hello-app default styles
 
 body {
   font-family: 'HK Grotesk',serif;
-  background-image: linear-gradient(#1e80f7, #1ef7cc);
+  background-image: linear-gradient(#0F00D3, #F749FF);
   height:auto;
   color:white;
   -webkit-background-size: cover;
