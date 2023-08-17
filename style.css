@@ -173,16 +173,19 @@ input:focus{
 button {
   border:1px solid #00000000;
   border-radius:6px;
-  background-color: #34a1eb55;
-  color:#2c50de;
+  background-color: #BEBEBEC7;
+  color:#ffffff;
   font-family:inherit;
-  transition-duration:0.2s;
+  transition-duration:0.4s;
 } 
 button:hover {
-  background-color: #2c50de;
+  background-color: #F2F2F2C7;
   cursor:pointer;
   color:white;
+  
 }
+
+
 a{
   text-decoration:none;
 }
@@ -271,4 +274,3 @@ p {
   margin: 0;
   vertical-align: middle;
 } 
-
