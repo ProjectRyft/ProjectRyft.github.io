@@ -1,0 +1,241 @@
+<html>
+  <head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396546318113633"
+     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css" />
+    <link id="favicon" rel="icon" href="big-logo.png" type="image/x-icon">
+     
+    <title>Bookmarklet Hacks</title>
+    <link rel="canonical" href="https://projectrift.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Rift" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://projectryft.github.io" />
+    <meta
+      property="og:description"
+      content="Countdown until end of the year.">
+    <meta
+      property="og:image"
+      content="logo.png"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+    .dropdown {
+    left:auto;
+    width:100%;
+    position: relative;
+    display: inline-block;
+    transition-duration:0.6s;
+    text-align:center;
+    margin-bottom:3%;
+    }
+      
+    .dropdown-content{
+    width:80%;
+    height:0vh;
+    position:relative;
+    border-radius:5px;
+    left:10%;
+    right:10%;
+    transition-duration:0.6s;
+    overflow:hidden;
+    background-color:#1156e444;
+    margin-top:-2vh;
+    }
+      
+    .copy{
+      transition-duration:0.05s;
+     }  
+      
+    .copy:active{
+      font-size:34px;
+      color:#1254dd;
+    }
+      
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {height:25vh;margin-top:-2vh;}
+    </style>
+<!-- pingu -->
+    <!-- Import the webpage's javascript file -->
+    <script>
+    function copy(number){
+      if (number == 1){
+        var plus = document.getElementById('plus').innerHTML;
+        navigator.clipboard.writeText(plus);alert("Copied!");      
+      } else if (number == 2){
+        var dev = document.getElementById('dev').innerHTML;
+        navigator.clipboard.writeText(dev);alert("Copied!");
+    }  
+    }
+    </script>
+    <script src="/script.js" defer>
+    </script>
+    
+    
+  </head>
+  <body style="height:100vh;">
+
+  <h1 style="font-size:40px;margin-top:7%;">School Countdown</h1>
+  <p style="font-size:19px;margin-top:2%;">These are the current Timers for school (SVHS only for now)</p>
+    <div class="blocks">
+    <div class="left" style="width:50%;">
+      
+   
+      
+    
+      
+      
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+</style>
+<body>
+
+
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jun 13, 2024 14:15:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("school").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("school").innerHTML = "Ended";
+  }
+}, 1000);
+
+  </script>
+      
+      </body>
+      </div>
+    <img src="school.png" height="70" width="70" style="margin-left:420px;"> <p id="school" style="margin-left:200px;margin-top:-60px;">Loading...</p>
+    <img src="grad.png" height="70" width="70" style="margin-left:420px;"> <p id="2024" style="margin-left:200px;margin-top:-60px;">Coming Soon</p> <p style="margin-left:-420px;margin-top:-5px;font-size:100%;">2024</p>
+    <img src="grad.png" height="70" width="70" style="margin-left:420px;"> <p id="2025" style="margin-left:200px;margin-top:-60px;">Coming Soon</p> <p style="margin-left:-420px;margin-top:-5px;font-size:100%;">2025</p>
+    <img src="grad.png" height="70" width="70" style="margin-left:420px;"> <p id="2026" style="margin-left:200px;margin-top:-60px;">Coming Soon</p> <p style="margin-left:-420px;margin-top:-5px;font-size:100%;">2026</p>
+    <img src="grad.png" height="70" width="70" style="margin-left:420px;"> <p id="2027" style="margin-left:200px;margin-top:-60px;">Coming Soon</p> <p style="margin-left:-420px;margin-top:-5px;font-size:100%;">2027</p>
+
+  </div>
+
+ 
+ <div style="border:0px solid #ffffff00;position:fixed;width:106%;height:8%;top:-1%;left:-3%;background-color:#B9B9B988;border-radius:0px;filter: blur(3px);"></div>
+  <h1><strong id="demo" style="position:fixed;text-align:center;margin-left:-115px;margin-top:-25px;"></strong></h1>
+  <div style="position:fixed;left:0px;top:-2px;" height="20%"><a href="/">
+  <img src="logo.png" width="3.1%" height="3.1%" style="float:left;"> 
+    </a><h1 style="position:absolute;text-align:left;left:3%;vertical-align:center;font-size:190%;bottom:-40%;">
+    Ryft / Countdown
+    </h1>
+    <a href="">
+    <h1 style="position:absolute;text-align:left;left:90%;vertical-align:center;font-size:190%;bottom:-18%;">
+    <a href="/">
+      <button class="home">
+      <strong>Return Home</strong>
+      </button>
+      </a></h1></a>
+         </div>
+    <div style="border:0px solid #CDCDCD;position:fixed;width:100%;height:0.2%;top:6.5%;left:0%;background-color:#CDCDCD;border-radius:0px;"></div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo1").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo1").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </body>
+
+</html>
+
+        
