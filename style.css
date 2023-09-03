@@ -88,13 +88,52 @@ a:not(.btn--remix):visited {
 .divider {
   padding: 0 1rem;
 }
+.buttonstyle {
+  vertical-align:center;
+  margin-left:31%;
+  width:4%;
+  height:7.5%;
+  margin-top:2vh;
+  font-size:120%;
+  border:0px solid #00000000;
+  border-radius:15px;
+  grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+
+    .quote {
+        padding: 2em;
+        border-radius: .3em;
+        box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+
+        p {
+            margin-top: 0;
+        }
+
+        span {
+            font-weight: bold;
+            position: relative;
+            margin-left: 15px;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 1px;
+                width: 10px;
+                border-bottom: 1px solid black;
+                top: 10px;
+                left: -15px;
+
+            }
+        }
+    }
+}
+
 /******************************************************************************
 END Glitch hello-app default styles
 ******************************************************************************/
 
 body {
   font-family: 'HK Grotesk',serif;
-  background-image: linear-gradient(#1e80f7, #1ef7cc);
+  background-image: linear-gradient(#0F00D3, #F749FF);
   height:auto;
   color:white;
   -webkit-background-size: cover;
@@ -173,16 +212,151 @@ input:focus{
 button {
   border:1px solid #00000000;
   border-radius:6px;
-  background-color: #34a1eb55;
-  color:#2c50de;
+  background-color: #BEBEBEC7;
+  color:#ffffff;
   font-family:inherit;
-  transition-duration:0.2s;
+  transition-duration:0.4s;
 } 
 button:hover {
-  background-color: #2c50de;
+  background-color: #F2F2F2C7;
   cursor:pointer;
   color:white;
+  
 }
+
+
+
+
+
+
+.purple {
+  border:1px solid #00000000;
+  border-radius:6px;
+  background-color: #BEBEBEC7;
+  color:#ffffff;
+  font-family:inherit;
+  transition-duration:0.4s;
+} 
+.purple:hover {
+  background-color: #9D5BFF;
+  cursor:pointer;
+  color:white;
+  
+}
+
+
+
+
+
+
+
+
+.white {
+  border:1px solid #00000000;
+  border-radius:6px;
+  background-color: #BEBEBEC7;
+  color:#ffffff;
+  font-family:inherit;
+  transition-duration:0.4s;
+} 
+.white:hover {
+  background-color: #F3F3F3;
+  cursor:pointer;
+  color:white;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+.gray {
+  border:1px solid #00000000;
+  border-radius:6px;
+  background-color: #BEBEBEC7;
+  color:#ffffff;
+  font-family:inherit;
+  transition-duration:0.4s;
+} 
+.gray:hover {
+  background-color: #696969;
+  cursor:pointer;
+  color:white;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menugame {
+  border:1px solid #00000000;
+  border-radius:6px;
+  background-color: #BEBEBEC7;
+}
+
+
+
+
+
+.black {
+  border:1px solid #00000000;
+  border-radius:6px;
+  background-color: #BEBEBEC7;
+  color:#ffffff;
+  font-family:inherit;
+  transition-duration:0.4s;
+} 
+.black:hover {
+  background-color: #212121;
+  cursor:pointer;
+  color:white;
+  
+}
+
+
+
+
+.bug {
+  border:1px solid #00000000;
+  border-radius:6px;
+  background-color: #BEBEBEC7;
+  color:#ffffff;
+  font-family:inherit;
+  transition-duration:0.4s;
+} 
+.bug:hover {
+  background-color: #FF6363;
+  cursor:pointer;
+  color:white;
+  
+}
+
+
+
+
+
+
+
 a{
   text-decoration:none;
 }
@@ -272,3 +446,84 @@ p {
   vertical-align: middle;
 } 
 
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.buttsize {
+  object-fit: cover;
+  width: 65px;
+  height: 60px;
+}
+
+.countdowntest {
+  vertical-align:center;
+  margin-left:555px;
+  margin-top:-13.2vh;
+  font-size:120%;
+  border:0px solid #00000000;
+  border-radius:15px;
+}
+
+
+.cover {
+  object-fit: cover;
+  width: 80px;
+  height: 100px;
+}
+
+.home {
+  vertical-align:center;
+  top:-24px;
+  position:absolute;
+  border-width:3px;
+  border-color:#ffffff;
+  width:131px;
+  height:30px;
+  border-radius:14px;
+}
+
+
+.closemenugame {
+  vertical-align:center;
+  top:-24px;
+  position:absolute;
+  border-width:3px;
+  border-color:#ffffff;
+  width:131px;
+  height:30px;
+  border-radius:14px;
+}
+
+
+
+
+
+
+.game {
+  vertical-align:center;
+  top:-24px;
+  position:absolute;
+  border-width:3px;
+  border-color:#ffffff;
+  width:100px;
+  height:30px;
+  border-radius:14px;
+}
+
+
+
+.disabled-label {
+  object-fit: cover;
+  width: 80px;
+  height: 25px;
+  border:1px solid #00000000;
+  border-radius:6px;
+  background-color: #FF0000;
+  color:#ffffff;
+  font-family:inherit;
+  transition-duration:0.4s;
+}
