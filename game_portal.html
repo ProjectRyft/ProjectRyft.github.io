@@ -1,0 +1,203 @@
+<html>
+  <head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8396546318113633"
+     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/test.css" />
+    <link id="favicon" rel="icon" href="big-logo.png" type="image/x-icon">
+     
+    
+    <title>Game Portal</title>
+    <style>
+    ::-webkit-scrollbar {
+  width: 6px;
+  color: #5436eb;
+  background-color:#6081f000;
+  margin-right:3px;
+  float:right;
+  height:20vh;
+}
+::-webkit-scrollbar-thumb {
+  width: 3px;
+  color: #5436eb;
+  background-color:#3861e8ff;
+}
+@keyframes speel {
+  0%   {top:0px;}
+  100% {top:-20vh} 
+}
+@keyframes leeps { 
+  0%   {top:-20vh} 
+  100% {top:0px;}
+}
+      button {
+        color:white;
+      }
+    </style>
+    <script>
+    var sideBar = document.getElementById("sideBar");
+    
+    function closeSide(){
+      document.getElementById("sideBar").style = "position:fixed;width:13%;height:88vh;border-radius:7px;left:-14%;top:7vh;background-image:linear-gradient(#0F00D3, #F749FF);z-index:6;";
+    };
+    function openSide(){
+      document.getElementById("sideBar").style = "position:fixed;width:43%;height:80vh;border-radius:7px;left:30%;top:10vh;background-color:#B9B9B988;z-index:6;";
+    };
+    function frame(link){
+      document.getElementById("frame").src = link;
+    }
+      
+function search(){
+    // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('searchBar');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("search");
+  li = ul.getElementsByTagName('h2');
+
+    // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i]
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+    </script>
+ 
+    
+  </head> 
+  <body style="overflow:hidden;">
+    
+    
+  <!--/////////////TOP BAR/////////////-->
+  <div style="z-index:9;">      
+    
+  <div style="border:0px solid #ffffff00;position:fixed;width:106%;height:8%;top:-1%;left:-3%;background-color:#B9B9B988;border-radius:0px;filter: blur(3px);"></div>
+  <h1><strong id="demo" style="position:fixed;text-align:center;margin-left:-115px;margin-top:-25px;"></strong></h1>
+  <div style="position:fixed;left:0px;top:-2px;" height="20%"><a href="/">
+  <img src="https://cdn.glitch.global/507cad39-94af-4018-9ee8-af462e475029/logo.png?v=1692304830809" width="3.1%" height="3.1%" style="float:left;"> 
+    </a><h1 style="position:absolute;text-align:left;left:3%;vertical-align:center;font-size:190%;bottom:-40%;">
+    Ryft / Game Portal
+    </h1>
+    <a href="">
+    <h1 style="position:absolute;text-align:left;left:90%;vertical-align:center;font-size:190%;bottom:-18%;">
+    <a href="/">
+      <button class="home">
+      <strong>Return Home</strong>
+      </button>
+       
+      </a></h1></a>
+         </div>
+    <div style="border:0px solid #CDCDCD;position:fixed;width:100%;height:0.2%;top:6.5%;left:0%;background-color:#CDCDCD;border-radius:0px;"></div>
+    </div>
+<!--/////////////END TOP BAR/////////////-->
+     
+    <style>
+    
+      h2 {
+        color:#ffffff
+      }
+    </style>
+    
+    <iframe style="background-color:#00000066;border:2px solid #00000000;position:fixed; top:42; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:2;" id="frame">
+      
+    </iframe>
+    <div id="sideBar" style="position:fixed;width:43%;height:80vh;border-radius:7px;left:30%;top:10vh;background-color:#B9B9B988;z-index:6;">
+      <button style="z-index:10;text-align:right;color:white;font-size:20px;margin-right:4px;cursor:pointer;" onclick="closeSide();">
+        X
+      </button>
+      <strong><input type="text" onkeyup="search();" id="searchBar" placeholder="Search..." style="background-color:#0000001e;width:60%;border:1px solid #00000000;border-radius:5px;margin-top:-10px;margin-left:10%;color:black;font-size:20px;"></strong>
+      <div id="search" style="overflow:hidden;height:65vh;border-radius:15px;margin-left:5%;">
+        <h1 style="margin-top:10px;"></h1>
+        
+        <h2 id="pokemonshowdown"  style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black;margin-top:-10px;height:auto;" onclick="frame('https://play.pokemonshowdown.com/');">Pokemon Showdown</h2>
+       <h2 id="tetris" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black;margin-top:-10px;height:auto;"  onclick="frame('https://tetris.com/games-content/play-tetris-content/resources/project-tetriscom/game/game-6CFE455BCD75157E/target-desktop/if_game_html5.php?p=d&amp;cbidg=6CFE455BCD75157E');">Tetris</h2>
+        <h2 id="retrobowl"  style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black;margin-top:-10px;height:auto;" onclick="frame('https://game316009.konggames.com/gamez/0031/6009/live/index.html');">RetroBowl</h2>
+        <h2 id="slope" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black;margin-top:-10px;height:auto;" onclick="frame('https://storage.y8.com/y8-studio/unity_webgl/bitlaslt/slope_v_1_2_5/?key=9757549&value=80527');">Slope</h2>
+        <h2 id="getaway" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://www.twoplayergames.org/gameframe/getaway-shootout');">Getaway Shootout</h2>
+        <h2 id="fnf" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://kdata1.com/2020/12/friday-night-funkin/?key=y8&value=default');">Friday Night Funkin</h2>
+        <h2 id="surfers" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://kolagames.com/iframe/Subway-Surfer-Tokyo-');">Subway Surfers</h2>
+        <h2 id="worldshardestgame" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://kolagames.com/iframe/Worlds-Hardest-Game');">Worlds Hardest Game 3</h2>
+        <h2 id="tennismaster" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://www.twoplayergames.org/gameframe/tennis-masters');">Tennis Masters</h2>
+        <h2 id="googlebaseball" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('//www.google.com/logos/2019/july4th19/r6/july4th19.html?hl=en');">Google Baseball</h2>
+        <h2 id="googlecricket" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('//www.google.com/logos/2017/womenscricket17/womenscricket17.html?hl=en');">Google Cricket</h2>
+        <h2 id="holeio" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://hole-io.com');">Hole.io</h2>
+        <h2 id="zombs" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://ZombsRoyale.io');">ZombsRoyale.io</h2>
+        <h2 id="lolbeans" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://lolbeans.io');">LOL Beans</h2>
+        <h2 id="lolshots" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://lolshot.io');">LOL Shots</h2>
+        <h2 id="mopeio" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://mope.io/');">Mope.io</h2>
+        <h2 id="Paper" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://paper-io.comttps:Paper.ioio/');">Paper.io</h2>
+        <h2 id="2048cupcake" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://0x0800.github.io/2048-CUPCAKES/');">2048 Cupcake</h2>
+        <h2 id="fnaf1" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://cdn1.kevin.games/games/fnaf/FNAF-1.html');">Fnaf 1</h2>
+        <h2 id="baldi" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://html5.iclouds.io/baldis-basics/index.html');">Baldi's Basics</h2>
+        <h2 id="basketballrandom" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://www.twoplayergames.org/gameframe/basket-random');">Basketball Random</h2>
+        <h2 id="danceoffireandice" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('//v6p9d9t4.ssl.hwcdn.net/html/1175401/index.html?v=1574336293');">Dance of fire and Ice</h2>
+        <h2 id="fireboyandwatergirl4" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://kolagames.com/iframe/Fireboy-and-Watergirl-4---The-Crystal-Temple');">Fireboy and Watergirl 4</h2>
+        <h2 id="whereinfortnite" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://www.whereinfortnite.com');">Where in Fortnite</h2>
+        <h2 id="Poeltl" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://poeltl.dunk.town/');">Poeltl</h2>
+        <h2 id="4color" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://y8.com/embed/four_colors');">4 Colors</h2>
+        <h2 id="Boxtowergame" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://www.y8.com/games/box_tower');">Box Tower Game</h2>
+        <h2 id="monopoly" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://www.y8.com/games/monopoly');">Monopoly</h2>
+        <h2 id="Aihockey" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://play.famobi.com/3d-air-hockey/A-5U0J1?key=y8&value=default');">3D Air Hockey</h2>
+        <h2 id="pickalock" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://storage.y8.com/y8-studio/html5/akeemywka/pick_a_lock/?key=y8&value=default');">Pick A Lock</h2>
+        <h2 id="DK" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://static.arcadespot.com/retroemulator.php?system=snes&amp;game=2015/11/donkey-kong-country.smc');">Donkey Kong Country</h2>
+        <h2 id="mariocart" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://static.arcadespot.com/retroemulator.php?system=gba&amp;game=2016/01/mario-kart-super-circuit.zip');">Mario Kart</h2>
+        <h2 id="newsmb" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://static.arcadespot.com/retroemulator.php?system=nds&amp;game=2017/10/new-super-mario-bros.zip');">New Super Mario Bros</h2>
+        <h2 id="oot" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://static.arcadespot.com/retroemulator.php?system=n64&amp;game=2017/06/the-legend-of-zelda-ocarina-of-time.zip');">Ocarina of Time</h2>
+        <h2 id="sm64" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://static.arcadespot.com/retroemulator.php?system=n64&amp;game=2017/06/super-mario-64.zip');">Super Mario 64</h2>
+        <h2 id="pme" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://static.arcadespot.com/retroemulator.php?system=gba&game=2015/10/pokemon-emerald.zip');">Pokemon Emerald</h2>
+        <h2 id="backyardbaseball" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://www.retrogames.cc/embed/17553-backyard-baseball-u-venom.html');">Backyard Baseball</h2>
+        <h2 id="cuttherope" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://yandex.gamepix.com/ctr2/v3/web/default/iframe.html');">Cut The Rope 2</h2>
+        <h2 id="cats" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://www.twoplayergames.org/gameframe/dragon-ball-z-battle');">Dragon Ball Z Battle</h2>
+        <h2 id="pmpinball" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://static.arcadespot.com/retroemulator.php?system=gbc&game=2017/09/pokemon-pinball.zip');">Pokemon Pinball</h2>
+        <h2 id="pokeclicker" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://www.pokeclicker.com/');gamewarning();">Poke Clicker (working temp)</h2>
+        <h2 id="pokefirered" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://static.arcadespot.com/retroemulator.php?system=gba&game=2016/02/pokemon-fire-red.zip');">Pokemon Fire Red</h2>
+        <h2 id="sonicedventure" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://static.arcadespot.com/retroemulator.php?system=sega&game=2017/08/sonic-virtual-adventure.gen');">Sonic: Virtual Adventure</h2>
+        <h2 id="krunker" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://krunker.io');">Krunker.io</h2>
+        <h2 id="breakout" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://v6p9d9t4.ssl.hwcdn.net/html/1317921/index.html');">Idle Breakout</h2>
+        <h2 id="papa" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://papasfreezeria.io/papas-wingeria');">Papa's Freezeria</h2>
+        <h2 id="zelda" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://static.arcadespot.com/retroemulator.php?system=n64&amp;game=2017/06/the-legend-of-zelda-majoras-mask.zip');">Majora's Mask</h2>
+        <h2 id="redball" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://html5.gamemonetize.com/uhti3rj4s69rljjuoq8ufjcbc4onq0ak/');">Red Ball 4</h2>
+        <h2 id="sonic2" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://static.arcadespot.com/retroemulator.php?system=sega&amp;game=2016/08/sonic-the-hedgehog-2.gen');">Sonic 2</h2>
+        <h2 id="sonic3" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://static.arcadespot.com/retroemulator.php?system=sega&amp;game=2016/08/sonic-the-hedgehog-3.gen');">Sonic 3</h2>
+       <h2 id="doom" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://arcader.com/roms/doom.html');">DOOM</h2>
+      <h2 id="ageofwar" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://html5.gamedistribution.com/rvvASMiM/9467420d5c84482e9087276338a3a7b1/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5zaWx2ZXJnYW1lcy5jb20vIiwicGFyZW50RG9tYWluIjoic2lsdmVyZ2FtZXMuY29tIiwidG9wRG9tYWluIjoic2lsdmVyZ2FtZXMuY29tIiwiaGFzSW1wcmVzc2lvbiI6ZmFsc2UsImxvYWRlckVuYWJsZWQiOnRydWUsImhvc3QiOiJodG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbSIsInZlcnNpb24iOiIxLjUuMTYifQ%253D%253D');">Age of war</h2>
+         <h2 id="stumble" style="display:block;border-radius:4px;cursor:pointer;background-color:#0000001e;width:50%;color:black; margin-top:-10px;height:auto;" onclick="frame('https://www.stumbleguys.com/');">falling</h2>
+      </div>
+    </div>
+    
+    
+     
+     
+    
+    
+     <h1 onclick="openSide()" style="position:absolute;text-align:left;left:81.6%;vertical-align:center;font-size:190%;">
+   
+      <button class="game">
+      <strong>Open Menu</strong>
+      </button>
+      
+    
+      
+    </h1>
+    
+  </body>
+   <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Game Portal" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://projectryft.github.io" />
+    <meta
+      property="og:description"
+      content="Hello there! "
+    />
+    <meta
+      property="og:image"
+      content="logo.png"
+    />
+
+
+
+</html>
