@@ -1,9 +1,10 @@
-<h1>IF YOU ARE NOT A MEMBER OF THIS PROJECT, PLEASE BACK OUT!!!!</h1> <strong>Hello there!</strong> If you are reading this and you are on the glitch
-site, Please <strong>do not</strong> copy the code. We spent alot of time making this and we don't
-want anyone taking our stuff.
 
+  # Ryf
 
-Project made by WayWay and JokeIsPasta
+  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
-
-ᕕ( ᐛ )ᕗ
+  To preview and run the project on your device:
+  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+  2) In the terminal, run `npm install`
+  3) Run `npm start` to view project in browser
+  

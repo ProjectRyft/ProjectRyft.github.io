@@ -1,0 +1,314 @@
+.created-by-ray {
+  position: absolute;
+  bottom: 31.3px;
+  left: calc(50% - 50.5px);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 138px;
+  height: 22px;
+}
+.logo-3-icon {
+  position: absolute;
+  top: 31px;
+  left: calc(50% - 410px);
+  border-radius: var(--br-401xl);
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.this-sites-sole {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 265px);
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  width: 675px;
+  height: 158px;
+}
+.pdsd-notice {
+  position: absolute;
+  top: 907px;
+  left: 291px;
+  width: 820px;
+  height: 158px;
+  font-size: var(--font-size-8xl);
+}
+.logo-2-icon {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 162px);
+  border-radius: var(--br-401xl);
+  width: 321.1px;
+  height: 320px;
+  object-fit: cover;
+}
+.ryft {
+  margin-block-start: 0;
+  margin-block-end: 18px;
+}
+.the-ultimate-unblocking {
+  margin: 0;
+  font-size: 28px;
+}
+.ryft-the-ultimate-container {
+  position: absolute;
+  top: 286px;
+  left: calc(50% - 270px);
+  font-weight: 800;
+  display: inline-block;
+  width: 540px;
+  height: 263px;
+}
+.logo {
+  position: absolute;
+  top: 21px;
+  left: 9952px;
+  width: 540px;
+  height: 549px;
+}
+.game-portal-button {
+  position: absolute;
+  top: 38.3px;
+  left: calc(50% - 84.5px);
+  border-radius: var(--br-81xl);
+  background: linear-gradient(-89.27deg, #3e0064, #7200b8);
+  width: 203px;
+  height: 14.1px;
+}
+.game-portal,
+.game-portal-logo {
+  position: absolute;
+  top: 0;
+  height: 78.8px;
+}
+.game-portal-logo {
+  left: calc(50% - 118.5px);
+  width: 78.1px;
+  object-fit: contain;
+}
+.game-portal {
+  left: 0;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+  width: 237px;
+}
+.game-portal-button1 {
+  position: absolute;
+  top: 38.3px;
+  left: calc(50% - 84.5px);
+  border-radius: var(--br-81xl);
+  background: linear-gradient(-89.27deg, #640000, #b80000);
+  width: 203px;
+  height: 14.1px;
+}
+.free-movies {
+  position: absolute;
+  top: 17.4px;
+  left: calc(50% - 47.2px);
+  font-weight: 800;
+  display: inline-block;
+  width: 161px;
+  height: 26.2px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.discord,
+.movies,
+.report {
+  position: absolute;
+  top: 191.5px;
+  left: 568px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+  width: 237px;
+  height: 78.8px;
+}
+.discord,
+.report {
+  top: 287.3px;
+  left: 0;
+}
+.discord {
+  top: 191.5px;
+  left: 284px;
+  font-size: 25px;
+}
+.game-portal-button4 {
+  position: absolute;
+  top: 38.3px;
+  left: calc(50% - 84.5px);
+  border-radius: var(--br-81xl);
+  background: linear-gradient(-89.27deg, #000, #1f1f1f);
+  width: 203px;
+  height: 14.1px;
+}
+.news {
+  position: absolute;
+  top: 191.5px;
+  left: 0;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+  width: 237px;
+  height: 78.8px;
+}
+.countdown-button {
+  position: absolute;
+  top: 38.3px;
+  left: calc(50% - 84.5px);
+  border-radius: var(--br-81xl);
+  background: linear-gradient(-89.27deg, #643000, #b85800);
+  width: 203px;
+  height: 14.1px;
+}
+.stream {
+  position: absolute;
+  top: 95.8px;
+  left: 568px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+  width: 237px;
+  height: 78.8px;
+}
+.countdown-button1 {
+  position: absolute;
+  top: 38.3px;
+  left: calc(50% - 84.5px);
+  border-radius: var(--br-81xl);
+  background: linear-gradient(-89.27deg, #656565, #bdbdbd);
+  width: 203px;
+  height: 14.1px;
+}
+.countdown {
+  position: absolute;
+  top: 95.8px;
+  left: 0;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+  width: 237px;
+  height: 78.8px;
+}
+.countdown-button2 {
+  position: absolute;
+  top: 38.3px;
+  left: calc(50% - 84.5px);
+  border-radius: var(--br-81xl);
+  background: linear-gradient(-89.27deg, #020064, #0400b8);
+  width: 203px;
+  height: 14.1px;
+}
+.proxy {
+  position: absolute;
+  top: 95.8px;
+  left: 284px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+  width: 237px;
+  height: 78.8px;
+}
+.countdown-button3 {
+  position: absolute;
+  top: 38.3px;
+  left: calc(50% - 84.5px);
+  border-radius: var(--br-81xl);
+  background: linear-gradient(-89.27deg, #0d0d0d, #4f4f4f);
+  width: 203px;
+  height: 14.1px;
+}
+.github {
+  position: absolute;
+  top: 0;
+  left: 568px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+  width: 237px;
+  height: 78.8px;
+}
+.game-portal-button5 {
+  position: absolute;
+  top: 37.8px;
+  left: calc(50% - 84.5px);
+  border-radius: var(--br-81xl);
+  background: linear-gradient(-89.27deg, #656565, #bdbdbd);
+  width: 203px;
+  height: 13.9px;
+}
+.bookmarklets {
+  position: absolute;
+  top: 19.2px;
+  left: calc(50% - 46.2px);
+  font-weight: 800;
+  display: inline-block;
+  width: 161px;
+  height: 25.9px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.bookmarklet,
+.game-portal-logo5 {
+  position: absolute;
+  top: 0;
+  height: 77.8px;
+}
+.game-portal-logo5 {
+  left: calc(50% - 118.5px);
+  width: 78.1px;
+  object-fit: contain;
+}
+.bookmarklet {
+  left: 284px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+  width: 237px;
+  font-size: 23px;
+}
+.apps {
+  position: absolute;
+  top: 520px;
+  left: 9818px;
+  width: 805px;
+  height: 366.1px;
+  font-size: var(--font-size-7xl);
+}
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(238, 238, 238, 0.5);
+  backdrop-filter: blur(4px);
+  width: 20064px;
+  height: 42px;
+}
+.logo-2-icon1 {
+  left: 9538px;
+  border-radius: var(--br-401xl);
+  width: 41px;
+  height: 42px;
+  object-fit: cover;
+}
+.frame,
+.logo-2-icon1,
+.ryft1 {
+  position: absolute;
+  top: 0;
+}
+.ryft1 {
+  left: 9579px;
+  font-size: var(--font-size-8xl);
+  font-weight: 800;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 503px;
+  height: 42px;
+}
+.frame {
+  left: -9538px;
+  width: 20064px;
+  height: 886.1px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 103px;
+}
+.desktop-1 {
+  position: relative;
+  background: linear-gradient(123.22deg, #f09, #2100ff);
+  width: 100%;
+  height: 1188.3px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: 8px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
