@@ -102,7 +102,16 @@
   width: 203px;
   height: 14.1px;
 }
-.free-movies {
+.report {
+  position: absolute;
+  top: 191.6px;
+  left: 568px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+  width: 237px;
+  height: 78.8px;
+  overflow: hidden;
+}
+.discord-web {
   position: absolute;
   top: 17.4px;
   left: calc(50% - 47.2px);
@@ -112,27 +121,16 @@
   height: 26.2px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
-.discord,
-.movies,
-.report {
+.discord {
   position: absolute;
   top: 191.5px;
-  left: 568px;
+  left: 284px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
   width: 237px;
   height: 78.8px;
-}
-.discord,
-.report {
-  top: 287.3px;
-  left: 0;
-}
-.discord {
-  top: 191.5px;
-  left: 284px;
   font-size: 25px;
 }
-.game-portal-button4 {
+.game-portal-button3 {
   position: absolute;
   top: 38.3px;
   left: calc(50% - 84.5px);
@@ -217,7 +215,7 @@
   width: 237px;
   height: 78.8px;
 }
-.game-portal-button5 {
+.game-portal-button4 {
   position: absolute;
   top: 37.8px;
   left: calc(50% - 84.5px);
@@ -237,12 +235,12 @@
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .bookmarklet,
-.game-portal-logo5 {
+.game-portal-logo4 {
   position: absolute;
   top: 0;
   height: 77.8px;
 }
-.game-portal-logo5 {
+.game-portal-logo4 {
   left: calc(50% - 118.5px);
   width: 78.1px;
   object-fit: contain;
@@ -264,10 +262,10 @@
 .frame-child {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 9538px;
   background-color: rgba(238, 238, 238, 0.5);
   backdrop-filter: blur(4px);
-  width: 20064px;
+  width: 1365px;
   height: 42px;
 }
 .logo-2-icon1 {
