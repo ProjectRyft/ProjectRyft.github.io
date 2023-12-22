@@ -90,7 +90,6 @@
 }
 .game-portal {
   left: 0;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0);
   width: 237px;
 }
 .game-portal-button1 {
@@ -278,11 +277,11 @@
 .frame,
 .logo-2-icon1,
 .ryft1 {
-  position: absolute;
+  position: fixed;
   top: 0;
 }
 .ryft1 {
-  left: 9579px;
+  left: 0px;
   font-size: var(--font-size-8xl);
   font-weight: 800;
   text-align: left;
